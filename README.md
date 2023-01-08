@@ -1,1 +1,1 @@
-## Open Index.html file the run on your browser
+## Open Index.html file then run on your browser
