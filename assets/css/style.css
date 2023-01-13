@@ -7,9 +7,40 @@
 
 /*-------------------------------------------------------------- 
 # General
-
 --------------------------------------------------------------*/
+/* #client-testimonial-carousel {min-height: 200px;} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .backimg{
+    background-image: url(../img/back2_cleanup.PNG);
+      color: white;
+      background-repeat: no-repeat;
+      background-size: 92% 95%;
+      height: 589px;
+      margin-left: 39px
+  }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .backimg{
+    background-image: url(../img/back2_cleanup.PNG);
+      color: white;
+      background-repeat: no-repeat;
+      background-size: 92% 95%;
+      height: 589px;
+      margin-left: 39px
+  }
+}
+
+.backimg{
+  background-image: url(../img/back2_cleanup.PNG);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 92% 95%;
+    height: 589px;
+    margin-left: 39px
+}
 .img-fluid-force {
   width:100%;
 }
